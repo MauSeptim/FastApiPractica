@@ -60,3 +60,17 @@ en un solo comando pueden instalarse todo. El cual es este:
 ```
 pip install -r requirements.txt
 ```
+
+## Cargar las tablas del backend a su MySql
+Una vez tengan las dependencias, los archivos configurados y todo correctamente ejecutaran el siguiente comando para cargar las tablas a su db local
+```
+alembic upgrade head
+```
+
+## Correr el backend
+finalmente en la terminal vayanse a la carpeta del microservicio, si mal no me equivoco es Usuarios/ y ahi ejecutan el siguiente comando:
+```
+uvicorn main:app --reload
+```
+
+
