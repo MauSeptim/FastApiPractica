@@ -1,6 +1,12 @@
 # Instrucciones
 
-En el caso de quieran clonar este proyecto y ejecutarlo necesitaran modificar los siguientes archivos:
+## Clonar proyecto
+Ejecuten este comando:
+```
+git clone https://github.com/MauSeptim/FastApiPractica
+```
+
+Una vez clonado y lo tengan en su compu, si quieren ejecutar este proyecto necesitaran modificar los siguientes archivos:
 
 * .env
 * alembic.ini
@@ -11,12 +17,6 @@ Pero en ``alembic.ini`` tienen que encontrar esta linea:
 sqlalchemy.url = mysql+mysqlconnector://usuario_de_sql:contraseña@localhost:puerto_de_sql/nombre_de_db
 ```
 Lo sustituyen con lo mismo que ya pusieron en **.env** y deberia de funcionarles :)
-
-## Clonar proyecto
-Ejecuten este comando:
-```
-git clone https://github.com/MauSeptim/FastApiPractica
-```
 
 
 ## Crear entorno virtual
