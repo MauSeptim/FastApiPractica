@@ -6,6 +6,11 @@ Ejecuten este comando:
 git clone https://github.com/MauSeptim/FastApiPractica
 ```
 
+vayanse a esa carpeta en la terminal con el comando cd
+```
+cd FastApiPractica
+```
+
 Una vez clonado y lo tengan en su compu, si quieren ejecutar este proyecto necesitaran modificar los siguientes archivos:
 
 * .env
